@@ -1,0 +1,14 @@
+{
+  "name": "osaas-canary-app",
+  "version": "1.0.0",
+  "description": "Minimal canary app for OSC MyApp deployments",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
